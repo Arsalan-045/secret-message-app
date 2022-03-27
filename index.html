@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secret Message Sharing App</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+  
+<body>
+    
+    <div class="para1">
+        <h1><u>Secret Message Sharing App</u></h1>
+        <p>This App Helps You To Share A Secret Message To Your Friend Through A Link</p>
+        <p>Type Your Message And Click On 'Create' ButtonTo Generate Link</p>
+
+    </div>
+
+    <div id="msg-link" class="hide">
+        <h2 id="final"></h2>
+        <div><a href="./index.html"><p id="link1">
+            Create Your Own Website</p></a></div>
+
+    </div>
+
+    <div class="para2" id="sec-msg">
+        <div class="subpara1">
+            <form action="">
+                <label for="">Enter Secret Message </label><br>
+                <input type="text" id="msg-input" placeholder="Enter Message "/> <br><br>
+                <button type="submit" id="btn1">Create Link</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="para3" id="link">
+           <div class="subpara2">
+                 <h3>share This Link with Your Friends</h3>
+                 <input type="text" id="link-input">
+                 <button id="copy">copy</button>
+           </div>
+    </div>
+
+    <footer>
+        <p style="position: fixed; bottom: 0; width:100%; text-align: center"> Created By | Mohammed Muddasir Arsalan
+        </p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>

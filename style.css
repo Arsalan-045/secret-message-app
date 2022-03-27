@@ -1,0 +1,43 @@
+
+body{
+    background-image: url(./css1.png);
+}
+.para1{
+    margin-top: 80px;
+    text-align: center;
+}
+.subpara1{
+    text-align: center;
+    padding: 30px;
+}
+
+#btn1{
+    border-radius: 5px;
+    padding: 7px;
+    background-color: aquamarine;
+}
+
+#link{
+    text-align: center;
+}
+
+#copy{
+    border-radius: 5px;
+    padding: 7px;
+    background-color: aquamarine;
+}
+
+.hide{
+    display: none;
+}
+
+#final{
+    text-align: center;
+    margin-top: 80px;
+}
+
+a{
+    text-align: center;
+    text-decoration: none;
+    color: rgb(201, 204, 158);
+}
